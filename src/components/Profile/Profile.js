@@ -1,12 +1,16 @@
 import React from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
 import profileAvatar from "../../images/jpg/avatar.jpg"
+import Social from "./SocialMedia"
 import "./Profile.scss"
+
+const yearToday = new Date()
+const myAge = yearToday.getFullYear() - 1988
 
 const data = [
   {
     title: "Edad:",
-    info: "33 años",
+    info: `${myAge} años`,
   },
   {
     title: "Dirección:",
@@ -34,8 +38,8 @@ export default function Profile() {
           </Col>
 
           <Col xs={12} md={8} className="info__data">
-            <span> Info </span>
-            <p> Miguel Barrera </p>
+            <span> ¡Hola! </span>
+            <p>Miguel Barrera</p>
             <p> FullStack web developer </p>
             <hr />
 
@@ -49,6 +53,7 @@ export default function Profile() {
             </div>
           </Col>
         </Row>
+        <Social />
       </Container>
     </div>
   )
