@@ -38,9 +38,9 @@ export default function Profile() {
           </Col>
 
           <Col xs={12} md={8} className="info__data">
-            <span> ¡Hola! </span>
+            <span> Ponte en contacto! </span>
             <p>Miguel Barrera</p>
-            <p> FullStack web developer </p>
+            <p> FullStack Web & Mobile Developer</p>
             <hr />
 
             <div className="more-info">

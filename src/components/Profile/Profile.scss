@@ -45,16 +45,26 @@
         }
 
         > p:first-of-type {
+          // &:first-of-type {
           margin: 10px 0 0 0;
-          font-weight: 600px;
+          font-weight: 600;
           font-size: 40px;
         }
+
+        > p:last-of-type {
+          margin-left: 20px;
+          font-weight: 300;
+        }
+
         .more-info {
+          margin-left: 20px;
+
           .item {
             display: flex;
 
             p {
               &:first-of-type {
+                margin-right: 12px;
                 width: 25%;
                 font-weight: bold;
                 text-transform: uppercase;
@@ -62,6 +72,7 @@
               &:last-of-type {
                 width: 75%;
                 color: #a2a2a2;
+                margin-left: 12px;
               }
             }
           }
