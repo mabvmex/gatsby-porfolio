@@ -35,6 +35,12 @@ export default function Skills() {
             <h2>Operating Systems</h2>
             <ListSkills skills={OsSkills} colors={OsSkillsColors} />
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </Container>
       </BasicLayout>
     </div>
